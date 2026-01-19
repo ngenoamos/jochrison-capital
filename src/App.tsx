@@ -216,7 +216,7 @@ export default function JochrisonWebsite() {
       description: "We maintain the highest ethical standards in all our engagements, ensuring transparent communication and honest recommendations."
     },
     {
-      icon: <Zap />,
+      icon: <Activity />,
       title: "Innovation Excellence",
       description: "Continuous research and adoption of cutting-edge technologies to deliver solutions that provide competitive advantages."
     },
