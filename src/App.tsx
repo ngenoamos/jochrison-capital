@@ -270,7 +270,7 @@ export default function JochrisonWebsite() {
                 />
                 <div>
                   <div className="text-xl font-bold text-white tracking-tight">JOCHRISON CAPITAL LIMITED</div>
-                  <div className="text-[10px] text-cyan-400 font-black tracking-widest uppercase">Technology & Investment Partners</div>
+                  <div className="text-[10px] text-cyan-400 font-black tracking-widest uppercase">Lets Build Your Next Big Idea</div>
                 </div>
               </div>
 
