@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { 
   Menu, X, ChevronRight, Code, Database, Cloud, TrendingUp, 
   Users, Award, CheckCircle, ArrowRight, MessageCircle, 
-  Briefcase, Globe, Shield, Activity, Check 
+  Briefcase, Globe, Shield, Activity, Check, Scale, Zap, Mail, Phone, MapPin 
 } from 'lucide-react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -216,7 +216,7 @@ export default function JochrisonWebsite() {
       description: "We maintain the highest ethical standards in all our engagements, ensuring transparent communication and honest recommendations."
     },
     {
-      icon: <Activity />,
+      icon: <Zap />,
       title: "Innovation Excellence",
       description: "Continuous research and adoption of cutting-edge technologies to deliver solutions that provide competitive advantages."
     },
