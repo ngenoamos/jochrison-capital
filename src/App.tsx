@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, ChevronRight, Code, Database, Cloud, TrendingUp, Users, Award, CheckCircle, ArrowRight, MessageCircle, Briefcase, Globe, Shield, Zap, Scale, Users as UsersIcon, Mail, Phone, MapPin, Activity, Check } from 'lucide-react';
+import { 
+  Menu, X, ChevronRight, Code, Database, Cloud, TrendingUp, 
+  Users, Award, CheckCircle, ArrowRight, MessageCircle, 
+  Briefcase, Globe, Shield, Activity, Check 
+} from 'lucide-react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
