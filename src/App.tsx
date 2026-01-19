@@ -971,7 +971,7 @@ export default function JochrisonWebsite() {
                 
                 <div className="space-y-6">
                   <p className="text-lg text-slate-300">
-                    Founded in 2015, Jochrison Capital Limited has evolved from a boutique software development firm into a comprehensive technology and investment partner for enterprises across East Africa. Our journey reflects our commitment to innovation, quality, and transformative impact.
+                    Founded in 2008, Jochrison Capital Limited has evolved from a boutique software development firm into a comprehensive technology and investment partner for enterprises across East Africa. Our journey reflects our commitment to innovation, quality, and transformative impact.
                   </p>
                   
                   <p className="text-slate-400">
@@ -979,20 +979,20 @@ export default function JochrisonWebsite() {
                   </p>
                   
                   <p className="text-slate-400">
-                    Over the years, we've built a reputation for delivering complex enterprise solutions that not only meet technical specifications but also drive real business value. Our team of certified professionals brings together diverse expertise across software engineering, data science, cybersecurity, and digital strategy.
+                    Over the years, we've built a reputation for delivering complex system solutions that not only meet technical specifications but also drive real business value. Our team of certified professionals brings together diverse expertise across software engineering, data science, cybersecurity, and digital strategy.
                   </p>
                   
                   <div className="grid grid-cols-2 gap-6 mt-8">
                     <div>
-                      <div className="text-3xl font-bold text-cyan-400 mb-2">2015</div>
+                      <div className="text-3xl font-bold text-cyan-400 mb-2">2008</div>
                       <div className="text-slate-400">Year Founded</div>
                     </div>
                     <div>
-                      <div className="text-3xl font-bold text-cyan-400 mb-2">100+</div>
+                      <div className="text-3xl font-bold text-cyan-400 mb-2">10+</div>
                       <div className="text-slate-400">Team Members</div>
                     </div>
                     <div>
-                      <div className="text-3xl font-bold text-cyan-400 mb-2">15+</div>
+                      <div className="text-3xl font-bold text-cyan-400 mb-2">3+</div>
                       <div className="text-slate-400">Countries Served</div>
                     </div>
                     <div>
@@ -1043,7 +1043,7 @@ export default function JochrisonWebsite() {
                       <div className="space-y-4">
                         <div className="flex items-center gap-4 text-slate-900">
                           <Mail size={24} />
-                          <span className="font-bold">contact@jochrisoncapital.com</span>
+                          <span className="font-bold">info@jochrisoncapital.com</span>
                         </div>
                         <div className="flex items-center gap-4 text-slate-900">
                           <Phone size={24} />
