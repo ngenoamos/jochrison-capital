@@ -17,6 +17,19 @@ export default function JochrisonWebsite() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+      const data = Object.fromEntries(formData.entries());
+
+      // 1. Save to Database via our new API
+      try {
+        await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+      } catch (err) {
+        console.error("Database save failed, but proceeding with email...");
+      }
     setIsSubmitted(true);
     
     emailjs.sendForm(
