@@ -113,7 +113,7 @@ export default function JochrisonWebsite() {
     {
       id: 5,
       name: "Secure Electronic Voting System",
-      client: "Trade Representative Association (TRA)",
+      client: "Transport  Revenue Authority (TRA)",
       description: "A transparent, secure electronic voting platform with comprehensive audit trails, real-time results visualization, and multi-factor authentication ensuring electoral integrity.",
       detailedDescription: "The TRA Electronic Voting System represents the pinnacle of secure digital democracy. Our solution incorporates blockchain technology for immutable vote recording, biometric voter verification, real-time results streaming with data visualization, and comprehensive audit trails. The system successfully handled 500,000+ votes in the 2024 elections with zero reported incidents of fraud or system failure. Advanced features include offline voting capability, voter anonymity preservation through cryptographic techniques, and post-election analytics for democratic insights.",
       features: [
