@@ -15,7 +15,7 @@ export default function JochrisonWebsite() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [demoModal, setDemoModal] = useState({ isOpen: false, videoUrl: '', title: '' });
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
       const data = Object.fromEntries(formData.entries());
