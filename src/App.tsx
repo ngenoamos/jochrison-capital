@@ -204,7 +204,7 @@ export default function JochrisonWebsite() {
   ];
 
   const technologies = [
-    "C#", "PHP", "React/Next.js", "Node.js", "Python/Django", "PostgreSQL", "MongoDB", "Redis",
+    "C#", "PHP", "AI", "React/Next.js", "Node.js", "Python/Django", "PostgreSQL", "MongoDB", "Redis",
     "AWS", "Azure", "Docker", "Kubernetes", "TensorFlow", "PyTorch", "Power BI", "Tableau",
     "GraphQL", "Microservices", "Blockchain", "IoT", "CI/CD", "Git"
   ];
